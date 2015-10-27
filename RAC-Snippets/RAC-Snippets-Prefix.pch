@@ -1,0 +1,27 @@
+//
+//  RAC-Snippets-Prefix.pch
+//  RAC-Snippets
+//
+//  Created by luguobin on 15/10/27.
+//  Copyright © 2015年 XS. All rights reserved.
+//
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// Pods
+#import <RACEXTScope.h>
+#import <ReactiveCocoa.h>
+
+#import "RSSnippetsDataSource.h"
+
+
+#endif
